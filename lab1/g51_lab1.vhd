@@ -14,8 +14,10 @@ architecture transformer of g51_segment_decoder is
 							(code(0) and not code(1) and code(2) and code(3));
 
 		segments(1) <= (not code(0) and code(1) and code(2)) OR
-							(code(0) and not code(1) and code(2)) OR
-							(code(2) and code(3));
+							(code(0) and code(1) and code(3)) OR
+							(not code(0) and code(2) and code(3)) OR
+							(code(1) and code(2) and code(3)) OR
+							(code(0) and not code(1) and code(2) and not code(3));
 							
 		segments(2) <= (not code(0) and code(1) and not code(2) and not code(3)) OR
 							(not code(0) and code(2) and code(3)) OR
@@ -26,12 +28,12 @@ architecture transformer of g51_segment_decoder is
 							(code(0) and not code(1) and not code(2) and code(3)) OR 
 							(code(0) and code(1) and code(2));
 							
-		segments(4) <= (not code(0) and not code(1) and code(2) and not code(3)) OR 
-							(code(0) and not code(2) and not code(3)) OR
+		segments(4) <= (code(2) and not code(1) and not code(3)) OR 
+							(code(0) and not code(1) and not code(2)) OR
 							(code(0) and not code(3));
 							
 		segments(5) <= (code(0) and not code(1) and code(2) and code(3)) OR
-							(code(0) and code(1) and code(2) and not code(3)) OR
+							(code(0) and code(1) and not code(3)) OR
 							(code(1) and not code(2) and not code(3)) OR
 							(code(0) and not code(2) and not code(3));
 							
