@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ProgramFolder/intelFPGA_lite/16.1
+Eg51_lab1
+Z0 w1551468677
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dP:/ECSE222-Lab/lab1/ModelSIM
+Z5 8P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd
+Z6 FP:/ECSE222-Lab/lab1/g51_segment_decoder.vhd
+l0
+L4
+Vo6XKWkQoVBL:K1VlCL4V50
+!s100 gd:mGTX[8Mf]Cf@:SMo1M2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1551468716
+!i10b 1
+Z9 !s108 1551468716.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd|
+Z11 !s107 P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Atransformer
+R1
+R2
+R3
+Z14 DEx4 work 8 g51_lab1 0 22 o6XKWkQoVBL:K1VlCL4V50
+l10
+L9
+VK_kGfC_TT7097[NLZL`Q^2
+!s100 I4GjKGgZLzAFNa9VOVA=J3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eg51_lab1_vhd_tst
+Z15 w1551460999
+R1
+R2
+R3
+R4
+Z16 8P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
+Z17 FP:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
+l0
+L32
+VWgkG__0j=Z`<f]96?O<1D1
+!s100 <<e>1cWF;]Q50QgoT02^o2
+R7
+32
+Z18 !s110 1551467433
+!i10b 1
+Z19 !s108 1551467433.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht|
+Z21 !s107 P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht|
+!i113 1
+R12
+R13
+Ag51_lab1_arch
+R1
+R2
+R3
+DEx4 work 16 g51_lab1_vhd_tst 0 22 WgkG__0j=Z`<f]96?O<1D1
+l45
+L34
+V]Xe47DcnP]Bk=B@AV@jY80
+!s100 <PYY3RKKJOC<;=`K5Q`db0
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
