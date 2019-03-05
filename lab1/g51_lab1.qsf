@@ -58,3 +58,4 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VHDL_TEST_BENCH_FILE simulation/modelsim/g51_lab1.vht
 set_global_assignment -name VHDL_FILE g51_segment_decoder.vhd
+set_global_assignment -name VHDL_FILE g51_adder.vhd
