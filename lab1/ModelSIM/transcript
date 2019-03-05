@@ -1,30 +1,29 @@
 # Compile of g51_segment_decoder.vhd was successful.
 # Compile of g51_lab1.vht was successful.
 vsim -gui work.g51_lab1_vhd_tst
-# vsim -gui work.g51_lab1_vhd_tst 
-# Start time: 14:11:12 on Mar 01,2019
+# vsim -gui 
+# Start time: 14:21:43 on Mar 05,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.g51_lab1_vhd_tst(g51_lab1_arch)
 # Loading work.g51_lab1(transformer)
-add wave -position insertpoint sim:/g51_lab1_vhd_tst/*
 run -all
-# WARNING: No extended dataflow license exists
-# Compile of g51_segment_decoder.vhd was successful.
-run -all
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
 restart -f
-# Loading work.g51_lab1(transformer)
 run -all
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# End time: 14:48:13 on Mar 01,2019, Elapsed time: 0:37:01
-# Errors: 6, Warnings: 1
+add wave -position end  sim:/g51_lab1_vhd_tst/code
+add wave -position end  sim:/g51_lab1_vhd_tst/segments
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of g51_adder.vhd failed with 1 errors.
+# Compile of g51_adder.vhd failed with 1 errors.
+# Compile of g51_adder.vhd failed with 1 errors.
+# End time: 16:02:32 on Mar 05,2019, Elapsed time: 1:40:49
+# Errors: 0, Warnings: 0

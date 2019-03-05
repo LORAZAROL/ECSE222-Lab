@@ -1,14 +1,5 @@
-P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity g51_lab1
--- Compiling architecture transformer of g51_lab1
-
-} {} {}} P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht {1 {vcom -work work -2002 -explicit -stats=none P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht {1 {vcom -work work -2002 -explicit -stats=none P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
+Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
