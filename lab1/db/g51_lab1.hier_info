@@ -45,13 +45,12 @@ code[3] => segments.IN1
 code[3] => segments.IN1
 code[3] => segments.IN1
 code[3] => segments.IN1
-code[3] => segments.IN1
-segments[0] << segments.DB_MAX_OUTPUT_PORT_TYPE
-segments[1] << segments.DB_MAX_OUTPUT_PORT_TYPE
-segments[2] << segments.DB_MAX_OUTPUT_PORT_TYPE
-segments[3] << segments.DB_MAX_OUTPUT_PORT_TYPE
-segments[4] << segments.DB_MAX_OUTPUT_PORT_TYPE
-segments[5] << segments.DB_MAX_OUTPUT_PORT_TYPE
-segments[6] << segments.DB_MAX_OUTPUT_PORT_TYPE
+segments[0] <= segments.DB_MAX_OUTPUT_PORT_TYPE
+segments[1] <= segments.DB_MAX_OUTPUT_PORT_TYPE
+segments[2] <= segments.DB_MAX_OUTPUT_PORT_TYPE
+segments[3] <= segments.DB_MAX_OUTPUT_PORT_TYPE
+segments[4] <= segments.DB_MAX_OUTPUT_PORT_TYPE
+segments[5] <= segments.DB_MAX_OUTPUT_PORT_TYPE
+segments[6] <= segments.DB_MAX_OUTPUT_PORT_TYPE
 
 

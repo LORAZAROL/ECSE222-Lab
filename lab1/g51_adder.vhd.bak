@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity addition is
+	port( x, y: in std_logic_vector(4 downto 0);
+			sum:	out std_logic_vector(5 downto 0));
+	end addition;
+	
+architecture aaaaa of addition is
+begin
+	sum <= ('0' & x) + ('0' & y);
+end aaaaa;
+
+entity g51_adder is 
+	Port (A, B				: in std_logic_vector(4 downto 0);
+			decoded_A		: out std_logic_vector(13 downto 0);
+			decoded_B		: out std_logic_vector(13 downto 0);
+			decoded_AplusB	: out std_logic_vector(13 downto 0);
+end entity g51_adder;
+	

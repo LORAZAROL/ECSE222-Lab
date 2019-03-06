@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
+
 entity g51_lab1 is
 	Port( code: in std_logic_vector(3 downto 0);
 		  segments: out std_logic_vector(6 downto 0)
