@@ -18,7 +18,7 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "03/01/2019 11:45:12"
+-- Generated on "03/11/2019 12:42:25"
                                                             
 -- Vhdl Test Bench template for design  :  g51_lab1
 -- 
@@ -26,8 +26,7 @@
 -- 
 
 LIBRARY ieee;                                               
-USE ieee.std_logic_1164.all;  
-use IEEE.NUMERIC_STD.ALL;
+USE ieee.std_logic_1164.all;                                
 
 ENTITY g51_lab1_vhd_tst IS
 END g51_lab1_vhd_tst;
@@ -39,7 +38,7 @@ SIGNAL segments : STD_LOGIC_VECTOR(6 DOWNTO 0);
 COMPONENT g51_lab1
 	PORT (
 	code : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-	segments : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0)
+	segments : OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
 	);
 END COMPONENT;
 BEGIN
@@ -49,16 +48,18 @@ BEGIN
 	code => code,
 	segments => segments
 	);
-                                         
-
-generate_test : PROCESS
-	BEGIN
-		FOR i IN 0 to 15 LOOP
-			code <= std_logic_vector(to_unsigned(i,4));
-			WAIT FOR 10 ns;
-	END LOOP;
-	WAIT;
-END PROCESS generate_test;
-
-                                          
+init : PROCESS                                               
+-- variable declarations                                     
+BEGIN                                                        
+        -- code that executes only once                      
+WAIT;                                                       
+END PROCESS init;                                           
+always : PROCESS                                              
+-- optional sensitivity list                                  
+-- (        )                                                 
+-- variable declarations                                      
+BEGIN                                                         
+        -- code executes for every event on sensitivity list  
+WAIT;                                                        
+END PROCESS always;                                          
 END g51_lab1_arch;
