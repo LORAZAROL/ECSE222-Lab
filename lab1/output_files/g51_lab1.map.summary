@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Fri Mar 01 11:39:17 2019
-Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Mon Mar 11 15:11:19 2019
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 Revision Name : g51_lab1
-Top-level Entity Name : g51_lab1
+Top-level Entity Name : g51_adder
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 11
+Total pins : 52
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

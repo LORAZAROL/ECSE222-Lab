@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/ProgramFolder/intelFPGA_lite/16.1
 Eg51_lab1
-Z0 w1551811583
+Z0 w1552326010
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -18,26 +18,26 @@ Z5 8P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd
 Z6 FP:/ECSE222-Lab/lab1/g51_segment_decoder.vhd
 l0
 L4
-Vg>do>PD9dJOD^K>;A6^=i1
+Vo6XKWkQoVBL:K1VlCL4V50
 !s100 gd:mGTX[8Mf]Cf@:SMo1M2
-Z7 OV;C;10.3d;59
+Z7 OV;C;10.5b;63
 32
-Z8 !s110 1551813681
+Z8 !s110 1552326515
 !i10b 1
-Z9 !s108 1551813681.455000
+Z9 !s108 1552326515.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd|
 Z11 !s107 P:/ECSE222-Lab/lab1/g51_segment_decoder.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
-Z13 tExplicit 1
+Z13 tExplicit 1 CvgOpt 0
 Atransformer
 R1
 R2
 R3
-DEx4 work 8 g51_lab1 0 22 g>do>PD9dJOD^K>;A6^=i1
+DEx4 work 8 g51_lab1 0 22 o6XKWkQoVBL:K1VlCL4V50
 l10
 L9
-VSC@?2PDdzbH9z[[0nR<9>3
+VK_kGfC_TT7097[NLZL`Q^2
 !s100 I4GjKGgZLzAFNa9VOVA=J3
 R7
 32
@@ -50,24 +50,24 @@ R11
 R12
 R13
 Eg51_lab1_vhd_tst
-R0
+Z14 w1552326011
 R1
 R2
 R3
 R4
-Z14 8P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
-Z15 FP:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
+Z15 8P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
+Z16 FP:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht
 l0
 L32
-V=3AH>X;lkW9;CMPIZcVY71
+VWgkG__0j=Z`<f]96?O<1D1
 !s100 <<e>1cWF;]Q50QgoT02^o2
 R7
 32
-Z16 !s110 1551813686
+R8
 !i10b 1
-Z17 !s108 1551813686.287000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht|
-Z19 !s107 P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht|
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht|
+Z18 !s107 P:/ECSE222-Lab/lab1/simulation/modelsim/g51_lab1.vht|
 !i113 1
 R12
 R13
@@ -75,18 +75,18 @@ Ag51_lab1_arch
 R1
 R2
 R3
-DEx4 work 16 g51_lab1_vhd_tst 0 22 =3AH>X;lkW9;CMPIZcVY71
+DEx4 work 16 g51_lab1_vhd_tst 0 22 WgkG__0j=Z`<f]96?O<1D1
 l45
 L34
-V`_4QKUOFzX0h>b2EPVZAP2
-Z20 !s100 <PYY3RKKJOC<;=`K5Q`db0
+V]Xe47DcnP]Bk=B@AV@jY80
+Z19 !s100 <PYY3RKKJOC<;=`K5Q`db0
 R7
 32
-R16
+R8
 !i10b 1
+R9
 R17
 R18
-R19
 !i113 1
 R12
 R13
